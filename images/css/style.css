@@ -1,0 +1,114 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(4, 4, 35);
+
+}
+
+.nav {
+    padding-left: 3vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 10%;
+    color: red;
+}
+
+.dropdownlist {
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sign-in-button {
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px ;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../desktop-1920x1080\ \(1\).jpg);
+    color: white;
+    background-position-y: top;
+    height: 80vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.titles-container {
+    color: rgb(231, 213, 213);
+    padding-top: 6.3%;
+    padding-left: 7%;
+    width: 100%;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.heading1 {
+    font-size: 2.5em;
+
+}
+
+.hading2 {
+    font-size: 1em;
+
+}
+
+.paragraph {
+    font-size: 0.8em;
+}
+.email-container{
+    width: 40%;
+    height: fit-content;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+
+   
+}
+.email-input{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+    
+}
+.gt-st-btn{ 
+    color: white;
+    background-color: #e50914;
+    background-position-x: right;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    cursor: pointer;
+    text-align: center;
+}
+.gt-st-btn:hover{
+    background-color: #ff0b18;
+}
